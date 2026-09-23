@@ -4,26 +4,34 @@
 }
 
 body{
-    background:linear-gradient(315deg, #575454 0%, #000000 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #1E1E24;
 }
 
 .contaner{
-    border-radius: 6px;
-    margin-top: 6rem;
+    border-radius: 25px;
     text-align: center;
     justify-items: center;
     height: 550px;
     width: 440px;
-    background-color: #131313;
+    background-color: #e6e7ef;
     
 }
 
 input{
-    display: flex;
-    width: 100%;
+    font-size: 50px;
+    width: 415px;
+    height: 90px;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    margin-right: 25px;
+}
+
+input:focus{
+    outline: none;
 }
 
 button{
@@ -34,6 +42,44 @@ button{
     height: 85px;
     border: none;
     border-radius: 50%;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.1s ease, transform 0.05s ease;
+}
+
+#numbers{
     background-color: #595f69;
 }
 
+#numbers:hover{
+    background-color: #3a475a;
+}
+
+#numbers:active{
+    background-color: #242c3a;
+    transform: scale(0.96);
+}
+
+#equal{
+    background-color: rgb(246, 98, 44);
+}
+
+#equal:hover{
+    background-color: rgb(245, 87, 30);
+}
+
+#equal:active{
+    background-color: rgb(250, 70, 4);
+    transform: scale(0.96);
+}
+
+ #oprater{
+    color: rgb(84, 252, 6);
+    background-color: white;
+ }
+
+ #oprater:active{
+    transform: scale(0.96);
+ }
