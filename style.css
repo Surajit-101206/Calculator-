@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:linear-gradient(315deg, #575454 0%, #000000 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contaner{
+    border-radius: 6px;
+    margin-top: 6rem;
+    text-align: center;
+    justify-items: center;
+    height: 550px;
+    width: 440px;
+    background-color: #131313;
+    
+}
+
+input{
+    display: flex;
+    width: 100%;
+}
+
+button{
+    margin-top: 5px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 85px;
+    height: 85px;
+    border: none;
+    border-radius: 50%;
+    background-color: #595f69;
+}
+
