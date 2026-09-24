@@ -30,6 +30,10 @@ input{
     margin-right: 25px;
 }
 
+input::placeholder{
+    color: black;
+}
+
 input:focus{
     outline: none;
 }
